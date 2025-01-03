@@ -1,0 +1,17 @@
+
+-- Database created
+Create Database international_debt_stats;
+use international_debt_stats;
+
+-- Table Created
+Create table debt(
+country_name varchar(200),
+country_code varchar(20),
+indicator_name varchar(1000),
+indicator_code varchar(100),
+debt float(20)
+);
+
+-- display records
+Select * From debt;
+
